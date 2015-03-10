@@ -18,3 +18,7 @@ devtools::install_github("rstudio/shinyapps")
 ## Usage
 
 To get started using ShinyApps checkout the [Getting Started Guide](https://github.com/rstudio/shinyapps/blob/master/guide/guide.md).
+
+## This fork
+
+This fork differs only by adding `bundleApp()` to the list of functions exported by the NAMESPACE, making it easy to create a gzipped tarball of a Shiny app locally and then deploy it manually to a custom server instead of https://shinyapps.io.
